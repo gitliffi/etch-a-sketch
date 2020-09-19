@@ -1,0 +1,40 @@
+:root {
+    --grid-rows: 1;
+    --grid-cols: 1;
+}
+
+header {
+text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+#grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows),1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    height: 400px;
+    width: 400px;
+    border: solid 2px black; 
+    background: white;
+}
+
+#reset {
+    margin: 0 auto;
+    display: grid;
+    width: 100px;
+    padding: 10px;
+}
+
+#reset-btn {
+    color: black;
+    background-color: white;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+}
+.grid-cell {
+}
