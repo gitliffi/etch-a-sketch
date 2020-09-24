@@ -22,19 +22,22 @@ main {
     background: white;
 }
 
-#reset {
+#buttons {
     margin: 0 auto;
     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
     width: 100px;
     padding: 10px;
 }
 
-#reset-btn {
+.button {
     color: black;
     background-color: white;
     border-radius: 5%;
     border-style: solid;
     border-color: black;
+    width: 1fr;
 }
 .grid-cell {
 }
